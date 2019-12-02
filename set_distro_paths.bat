@@ -12,10 +12,10 @@ if not defined GREP_COLORS (set GREP_COLORS=mt=01;32:fn=36:ln=33:bn=31:se=35)
 doskey alias=doskey $*
 doskey ls=dir $*
 doskey rm=del $*
-doskey mv=move $*
 doskey cp=copy $*
+doskey mv=move $*
+doskey rmr=rd /s $*
 doskey cpr=xcopy $*
-doskey rmr=deltree $*
 doskey ps=tasklist $*
 doskey pwd=cd
 doskey cat=type $*
