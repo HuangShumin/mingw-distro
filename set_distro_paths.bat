@@ -30,6 +30,7 @@ doskey ...=cd ..\..\$*
 doskey ....=cd ..\..\..\$*
 doskey .....=cd ..\..\..\..\$*
 doskey cd=if '$*'=='' (pushd %HOMEDRIVE%%HOMEPATH%) else if '$*'=='-' (popd) else (pushd $*)
+::extract vim.exe/tee.exe/xxd.exe from Win32 console executable from https://www.vim.org/download.php#pc
 goto :eof
 
 :epicfail
